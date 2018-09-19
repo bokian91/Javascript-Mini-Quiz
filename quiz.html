@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="quizo.css" rel="stylesheet"></link>
+    <script src="kviz.js"></script>
+    <title>
+        Javascript Mini-Quiz
+    </title>
+</head>
+<body>
+    <h1>
+        Javascript Mini-Quiz
+    </h1>
+    <h2>
+        Answer at least 3 out of the 5 questions correctly to pass the quiz.
+    </h2>
+    <h3>
+        Javascript Questions
+    </h3>
+    <Form id="quiz" name="quiz">
+
+Q1 What is the correct output for the following code? <br> let player = 'Mike Trout' <br> let team = 'Los Angeles Angels of Anaheim' <br> alert(`${player} is a member of the ${team}.);
+        <br><br>
+
+<INPUT TYPE="radio" class="Q1" value="a">Player is a member of the Los Angeles Angels of Anaheim.<BR>
+
+<INPUT TYPE="radio" class="Q1" value="b">Mike Trout is a member of the Los Angeles Angels of Anaheim.<BR>
+
+<INPUT TYPE="radio" class="Q1" value="c">Mike Trout is a member of the team.<BR>
+
+<INPUT TYPE="radio" class="Q1" value="d">Player is a member of the team.<BR>
+    
+<br>
+    
+Q2 What is the name of the '%' operator?
+    <br><br>
+    
+<INPUT TYPE="radio" NAME="Q2" value="a">Multiply<BR>
+
+<INPUT TYPE="radio" NAME="Q2" value="b">Equal Value<BR>
+
+<INPUT TYPE="radio" NAME="Q2" value="c">Modules<BR>
+
+<INPUT TYPE="radio" NAME="Q2" value="d">Percentage<BR>
+    
+<br>
+    
+Q3 What is the syntax for a Javascript function?
+    <br><br>
+    
+<INPUT TYPE="radio" NAME="Q3" value="a">function go=()=> {};<BR>
+
+<INPUT TYPE="radio" NAME="Q3" value="b">function go=() {};<BR>
+
+<INPUT TYPE="radio" NAME="Q3" value="c">function go=()=>;<BR>
+
+<INPUT TYPE="radio" NAME="Q3" value="d">function go=> {};<BR>
+    
+<br>
+    
+Q4 What is the syntax for a Javascript Array?
+    <br><br>
+    
+<INPUT TYPE="radio" NAME="Q4" value="a">let go=();<BR>
+
+<INPUT TYPE="radio" NAME="Q4" value="b">let go=[];<BR>
+
+<INPUT TYPE="radio" NAME="Q4" value="c">let go={};<BR>
+
+<INPUT TYPE="radio" NAME="Q4" value="d">let go=<>;<BR>
+    
+<br>
+    
+Q5 Can a For Loop run backwards?
+    <br><br>
+    
+<INPUT TYPE="radio" NAME="Q5" value="a">No, Never<BR>
+
+<INPUT TYPE="radio" NAME="Q5" value="b">Only if it's a function<BR>
+
+<INPUT TYPE="radio" NAME="Q5" value="c">Yes, Ofcourse<BR>
+
+<INPUT TYPE="radio" NAME="Q5" value="d">Only if it's preceded by an array<BR>
+    
+    <br>
+    
+<Input type="button" class="btn" name="Submit" value="Submit" onclick="check()">
+    
+</Form>
+    
+<div id="after_submit">
+<p id="number_count"></p>
+<p id="message"></p>
+<img id="picture">
+</div>
+    
+</body>
+</html>
